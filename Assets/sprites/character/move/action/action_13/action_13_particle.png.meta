@@ -1,0 +1,88 @@
+fileFormatVersion: 2
+guid: e04060c8008faca45a587388c382027e
+timeCreated: 1429539831
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: action_13_particle_0
+    21300002: action_13_particle_1
+    21300004: action_13_particle_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: action_13_particle_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 355
+        width: 186
+        height: 194
+      alignment: 9
+      pivot: {x: .835304856, y: .0866713375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: action_13_particle_1
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 355
+        width: 163
+        height: 208
+      alignment: 9
+      pivot: {x: .757681251, y: .10225296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: action_13_particle_2
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 357
+        width: 165
+        height: 158
+      alignment: 9
+      pivot: {x: .692847073, y: .113329731}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

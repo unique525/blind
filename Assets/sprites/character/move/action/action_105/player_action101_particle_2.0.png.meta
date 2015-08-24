@@ -1,0 +1,88 @@
+fileFormatVersion: 2
+guid: 4b1008966ade4684eb489573284feaf8
+timeCreated: 1427553015
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: player_action101_particle_2.0_0
+    21300002: player_action101_particle_2.0_1
+    21300004: player_action101_particle_2.0_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: player_action101_particle_2.0_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 222
+        width: 396
+        height: 474
+      alignment: 9
+      pivot: {x: .838274658, y: .0820988491}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_action101_particle_2.0_1
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 223
+        width: 352
+        height: 472
+      alignment: 9
+      pivot: {x: .807686031, y: .0773089752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_action101_particle_2.0_2
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 210
+        width: 355
+        height: 483
+      alignment: 9
+      pivot: {x: .644514084, y: .101687789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

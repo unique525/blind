@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: 4f0d7c97539215049a8f860eda3f427d
+timeCreated: 1429542539
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: icon_action_2
+    21300002: icon_action_3
+    21300004: icon_action_4
+    21300006: icon_action_5
+    21300008: icon_action_6
+    21300010: icon_action_7
+    21300012: icon_action_10
+    21300014: icon_action_8
+    21300016: icon_action_8
+    21300018: icon_action_10
+    21300020: icon_action_0
+    21300022: icon_action_9
+    21300024: icon_action_11
+    21300026: icon_action_12
+    21300028: icon_action_1
+    21300030: icon_action_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Web
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: icon_action_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 548
+        width: 174
+        height: 172
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_action_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 548
+        width: 174
+        height: 172
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_action_3
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 536
+        width: 174
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_action_4
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 534
+        width: 174
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_action_5
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 536
+        width: 174
+        height: 171
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_action_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 546
+        width: 174
+        height: 173
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_action_7
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 535
+        width: 167
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_action_10
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 321
+        width: 115
+        height: 156
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_action_8
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 73
+        width: 174
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_action_9
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 77
+        width: 174
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_action_11
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 80
+        width: 174
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_action_12
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 73
+        width: 174
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_action_13
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 73
+        width: 174
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_action_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 588
+        width: 27
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
