@@ -13,6 +13,7 @@ public class ActionTouch : MonoBehaviour
 	public bool active = false;
 	public bool ching = false;
 	public Touch touch;
+	public int fingerId=0;
 	
 	public int nowFrameIndex;
 	
@@ -23,48 +24,25 @@ public class ActionTouch : MonoBehaviour
 		framePositions.Add (this.screenPosition + new Vector2 (60, 20));
 		framePositions.Add (this.screenPosition + new Vector2 (120, 40));
 		
-		
-		//GameObject sub1 =  Resources.Load("sub") as GameObject;
-		//sub1.GetComponent<RectTransform>().SetParent(GameObject.Find("Canvas"));
-		//sub1.GetComponent<RectTransform>().position=framePositions[1];
-		//GameObject sub2 =  Resources.Load("sub") as GameObject;
-		//sub2.GetComponent<RectTransform>().SetParent(Canvas);
-		//sub2.GetComponent<RectTransform>().position=framePositions[2];
-		
+
+		//for test
+		GameObject sub1 = Instantiate(Resources.Load("sub")) as GameObject;
+		sub1.transform.SetParent(GameObject.Find("Canvas").transform);
+		sub1.transform.position=framePositions[1];
+		GameObject sub2 =  Instantiate(Resources.Load("sub")) as GameObject;
+		sub2.transform.SetParent(GameObject.Find("Canvas").transform);
+		sub2.transform.position=framePositions[2];
+		//end
 		
 	}
 	
 	void Update ()
 	{
 		if (Input.touchCount > 0) {
-			touch = Input.touches [0];
-			Debug.Log (touch.position + "--" + framePositions [0]);
-			if (active == false && Vector2.Distance (touch.position, framePositions [0]) < 20) {
-				Debug.Log (Input.touches [0].position);
-				active = true;
-				nowFrameIndex = 0;
-			}
-			
-			if (active) {
-				Debug.Log (touch.phase);
-				switch (touch.phase) {
-				case TouchPhase.Ended:
-					if (!ching) {
-						Debug.Log ("Action(no chi)");
+			if(active){
+				if(fingerId>0){
+					for(int i=0;i<Input.touchCount;i++){
 					}
-					active = false;
-					break;
-				case TouchPhase.Moved:
-					if (Vector2.Distance (touch.position, framePositions [nowFrameIndex + 1]) < 50) {
-						ching = true;
-						nowFrameIndex++;
-						Debug.Log ("Frame to:" + nowFrameIndex);
-						if (nowFrameIndex == framePositions.Count) {
-							Debug.Log ("Action(chi)");
-						}
-						active = false;
-					}
-					break;
 				}
 			}
 		}

@@ -5,9 +5,11 @@ using System.Collections.Generic;
 public class MainTouch : MonoBehaviour
 {
 
-	public List<ActionTouch> actionTouchs = new List<ActionTouch> ();
 
-	public List<Touch> activeTouch = new List<Touch> ();
+	public List<int> activefingers = new List<int> ();
+	public List<ActionTouch> actionTouchList = new List<ActionTouch>();
+	public Touch touch;
+	public int fingerId;
 	// Use this for initialization
 	void Start ()
 	{
@@ -18,17 +20,21 @@ public class MainTouch : MonoBehaviour
 	void Update ()
 	{
 		if (Input.touchCount > 0) {
-			Touch touch;
 			for (int i=0; i<Input.touchCount; i++) {
 				touch = Input.touches [i];
-				if (!(activeTouch.Contains (touch))) {
+				fingerId=touch.fingerId;
+				if (!(activefingers.Contains (fingerId))) {
 
 
-					/** button 
+					/** button **/
 					if (true) {
+						for(int j=0;j<actionTouchList.Count;j++){
+							if(Vector2.Distance(touch.position,actionTouchList.transform.position)<=60){
 
+							};
+						}
 						break;
-					}**/
+					}
 
 				
 					/** weakpoint 
